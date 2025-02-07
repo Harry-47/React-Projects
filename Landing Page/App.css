@@ -1,0 +1,54 @@
+.dots{
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+    width: 100px;
+    list-style: none;
+    position: absolute;
+    top: 86%;
+}
+.dot {
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    height: 15px;
+    width: 15px;
+}
+.orange {
+    background: orangered;
+}
+.heroText {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: xxx-large;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.heroButton {
+    background: transparent;
+    color: white;
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 50%;
+    margin-left:80%;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.controls{
+    position: absolute;
+    background-color:rgba(255, 255, 255, 0);
+    color: white;
+    top: 30%;
+    left: 10%;
+    width: 80%;
+}
+@keyframes fadeIn {
+    from { opacity: 0}
+    to {opacity: 1}
+}
+.fadeIn {
+    animation: fadeIn 1s ease-in-out;
+}
