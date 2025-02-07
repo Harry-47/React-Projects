@@ -1,0 +1,13 @@
+.Container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  min-height: fit-content;
+  min-width: fit-content;
+  border: 2px solid red;
+}
+.newsitem{
+  height: max-content;
+  width: max-content;
+
+}
