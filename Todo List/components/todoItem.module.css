@@ -1,0 +1,10 @@
+.todoItem{
+    display: flex;
+    justify-content: space-between;
+
+}
+.button{
+    background-color: red;
+    border-radius: 5px;
+    border-color: red;
+}
